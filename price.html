@@ -27,7 +27,8 @@
                         </div>
                         <div class="block-28p vertical-center sm-100">
                             <div class="contacts-info ">
-                                <p class="address">Полтава, ул. Квиткы Цисык, 20 (Краснофлотская)</p>
+                                <p class="address lang" data-lang="adress">Полтава, ул. Квиткы Цисык, 20 (Краснофлотская)
+                                </p>
                                 <a class="tel-num" href="tel:+74">050 166 86 41</a>
                             </div>
 
@@ -41,8 +42,12 @@
                         <nav class="main-nav">
                             <ul class="site-nav">
                                 <li><a href="index.html" class="to-home"><i class="fas fa-home"></i></a> </li>
-                                <li><a href="#goto-services">Все услуги</a></li>
-                                <li><a href="#goto-services">Цены</a></li>
+                                <li><a href="index.html" class="lang" data-lang="menu1">Услуги</a></li>
+                                <li><a href="price.html" class="lang" data-lang="menu2">Цены</a></li>
+                                <li><select class="change-lang">
+                                        <option value="ua">UA</option>
+                                        <option value="ru" selected>RU</option>
+                                    </select></li>
                             </ul>
                         </nav>
                     </div>
@@ -53,27 +58,20 @@
         <div class="container body-shadow">
             <div class="main-info flex gray-bg wrap ">
                 <div class="block-72p md-60 sm-100">
-                    <div class="about-us gray-bg ">
-                        <h3>Цены</h3>
+                    <div class="about-us gray-bg">
+                        <h3 class="lang" data-lang="menu2">Цены</h3>
                         <!-- <h4>Наша мастерская </h4> -->
-                        <table class="price-table">
-                            <tr>
-                                <th>Название</th>
-                                <th>Цена</th>
-                            </tr>
-
-                        </table>
-
+                        <div class="table"></div>
                     </div>
                 </div>
                 <div class="block-28p m-0 md-40 sm-100">
                     <div class="about-us outer-card">
-                        <h3>Контакты </h3>
-                        <h4>Как нас найти</h4>
+                        <h3 class="lang" data-lang="contact">Контакты </h3>
+                        <h4 class="lang" data-lang="find">Как нас найти</h4>
                         <ul>
                             <li>Полтава, </li>
-                            <li>ул. Краснофлотская, 20 </li>
-                            <li>(Квиткы Цисык)</li>
+                            <li class="lang" data-lang="strt">ул. Краснофлотская, 20 </li>
+                            <li class="lang" data-lang="new-strt">(Квиткы Цисык)</li>
                         </ul>
                         <a class="tel-num btn " href="tel:+74">050 166 86 41</a>
                     </div>
@@ -91,8 +89,9 @@
         </div>
     </div>
 
+    <script src="js/lang.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/table.js"></script>
+
 </body>
 
 </html>

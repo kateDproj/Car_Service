@@ -27,7 +27,8 @@
                         </div>
                         <div class="block-28p vertical-center sm-100">
                             <div class="contacts-info ">
-                                <p class="address">Полтава, ул. Квиткы Цисык, 20 (Краснофлотская)</p>
+                                <p class="address lang" data-lang="adress">Полтава, ул. Квиткы Цисык, 20 (Краснофлотская)
+                                </p>
                                 <a class="tel-num" href="tel:+74">050 166 86 41</a>
                             </div>
 
@@ -41,8 +42,12 @@
                         <nav class="main-nav">
                             <ul class="site-nav">
                                 <li><a href="index.html" class="to-home"><i class="fas fa-home"></i></a> </li>
-                                <li><a href="#goto-services">Все услуги</a></li>
-                                <li><a href="price.html">Цены</a></li>
+                                <li><a href="#goto-services" class="lang" data-lang="menu1">Услуги</a></li>
+                                <li><a href="price.html" class="lang" data-lang="menu2">Цены</a></li>
+                                <li><select class="change-lang">
+                                        <option value="ua">UA</option>
+                                        <option value="ru" selected>RU</option>
+                                    </select></li>
                             </ul>
                         </nav>
                     </div>
@@ -54,21 +59,21 @@
             <div class="main-info flex car-bg wrap ">
                 <div class="block-72p md-60 sm-100">
                     <div class="about-us">
-                        <h3>О Нас</h3>
+                        <h3 class="lang" data-lang="us">О Нас</h3>
                         <!-- <h4>Наша мастерская </h4> -->
-                        <p>Наша автомастерская предоставляет услуги в сфере автосервиса в городе Полтава. Мы сотрудничаем с мастерами, которые имеют огромный опыт выполнения технического обслуживания автомобилей. Мы также имеем всё необходимое оборудование,
+                        <p class="lang" data-lang="descr">Наша автомастерская предоставляет услуги в сфере автосервиса в городе Полтава. Мы сотрудничаем с мастерами, которые имеют огромный опыт выполнения технического обслуживания автомобилей. Мы также имеем всё необходимое оборудование,
                             что позволяет делать качественный современный авторемонт и решать множество сложных задач. Вы сможете получить квалифицированную консультацию по вопросам, касающимся ремонта вашего автомобиля.
                         </p>
                     </div>
                 </div>
                 <div class="block-28p m-0 md-40 sm-100">
                     <div class="about-us outer-card">
-                        <h3>Контакты </h3>
-                        <h4>Как нас найти</h4>
+                        <h3 class="lang" data-lang="contact">Контакты </h3>
+                        <h4 class="lang" data-lang="find">Как нас найти</h4>
                         <ul>
                             <li>Полтава, </li>
-                            <li>ул. Краснофлотская, 20 </li>
-                            <li>(Квиткы Цисык)</li>
+                            <li class="lang" data-lang="strt">ул. Краснофлотская, 20 </li>
+                            <li class="lang" data-lang="new-strt">(Квиткы Цисык)</li>
                         </ul>
                         <a class="tel-num btn " href="tel:+74">050 166 86 41</a>
                     </div>
@@ -84,8 +89,8 @@
                     <div class="cart ">
                         <img src="images/hod.png" alt="">
                         <h3>Ремонт </h3>
-                        <h4>Ходовой</h4>
-                        <p>
+                        <h4 class="lang" data-lang="hod">Ходовой</h4>
+                        <p class="lang" data-lang="desc-rem-hod">
                             Включает целый комплекс работ. Многие обращаются к мастеру именно из-за ухудшения состояния ходовой части автомобиля. Это могут быть скрипы, стуки в подвеске, плохая управляемость машины.
                         </p>
 
@@ -95,8 +100,8 @@
                     <div class="cart ">
                         <img src="images/razv.png" alt="">
                         <h3>Развал- </h3>
-                        <h4>Схождение</h4>
-                        <p>
+                        <h4 class="lang" data-lang="shod">Схождение</h4>
+                        <p class="lang" data-lang="desc-raz-hod">
                             Предполагает правильную регулировку углов установки колёс и сайлентблоков. Это позволяет сделать автомобиль легко управляемым, отзывчивым и маневренным. Повышается экономия топлива.
                         </p>
                     </div>
@@ -105,8 +110,8 @@
                     <div class="cart ">
                         <img src="images/reika.png" alt="">
                         <h3>Ремонт </h3>
-                        <h4>Рулевой рейки</h4>
-                        <p>
+                        <h4 class="lang" data-lang="reika">Рулевой рейки</h4>
+                        <p class="lang" data-lang="desc-rem-reika">
                             Рулевая рейка - очень важный элемент, предназначеный для управления автомобилем. Она является узлом, который соединяет руль и колёса, обеспечивая безопасность водителю и пассажирам.
                         </p>
                     </div>
@@ -115,8 +120,8 @@
                     <div class="cart ">
                         <img src="images/engine.jpeg" alt="">
                         <h3>Ремонт </h3>
-                        <h4>Бензинового двигателя</h4>
-                        <p>
+                        <h4 class="lang" data-lang="engine">Бензинового двигателя</h4>
+                        <p class="lang" data-lang="desc-rem-engine">
                             Двигатель - сердце автомобиля. Важно обеспечить бесперебойность и надёжность его работы, что позволит развивать достаточную мощность для нормальной тяги автомобиля в рамках норм расхода топлива и масла
                         </p>
                     </div>
@@ -124,18 +129,18 @@
 
             </div>
             <div class="services p-t-0">
-                <a href="price.html" class="btn to-prices m-tb-0 color-white">К ценам</a>
+                <a href="price.html" class="btn to-prices m-tb-0 color-white lang" data-lang="toPrice">К ценам</a>
             </div>
         </div>
         <div class="container bg-black">
-            <h3 class=" color-gray services-h">Другие услуги</h3>
+            <h3 class=" color-gray services-h lang" data-lang="other">Другие услуги</h3>
             <div class="all-services flex">
 
                 <div class="block-50p sm-100">
                     <div class="cart ">
                         <h3>Ремонт</h3>
-                        <h4> электрооборудования</h4>
-                        <ul class="services-list">
+                        <h4 class="lang" data-lang="elek"> электрооборудования</h4>
+                        <ul class="services-list lang" data-lang="services-list">
                             <li>Стартер (все виды)</li>
                             <li>Генератор</li>
                             <li>Компьютерная диагностика</li>
@@ -158,8 +163,8 @@
                 </div>
                 <div class="block-50p sm-100">
                     <div class="cart ">
-                        <h3 class="color-gray">Расположение</h3>
-                        <h4> на карте</h4>
+                        <h3 class="color-gray lang" data-lang="location1">Расположение</h3>
+                        <h4 class="lang" data-lang="location2"> на карте</h4>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2586.227185552419!2d34.512860015582966!3d49.59346507936637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d828aef34a6903%3A0x5e3b6cb037f418a8!2z0YPQuy4g0JrQstC40YLQutGLINCm0LjRgdGL0LosIDIwLCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDM2MDAw!5e0!3m2!1sru!2sua!4v1607170651312!5m2!1sru!2sua"
                             width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
@@ -174,8 +179,9 @@
             </footer>
         </div>
     </div>
-
+    <script src="js/lang.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 
 </html>

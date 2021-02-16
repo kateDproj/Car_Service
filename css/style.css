@@ -460,6 +460,9 @@ h4 {
    margin-left: auto;
    font-size: 25px;    */
     }
+    .main-nav .site-nav li {
+        padding: 10px 10px;
+    }
 }
 
 
